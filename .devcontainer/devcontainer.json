@@ -1,7 +1,6 @@
 {
 	"name": "test",
-	"dockerFile": "Dockerfile",
-	"context": "./",
+	"image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-12",
 	"runArgs": ["--privileged", "--security-opt", "seccomp=unconfined"],
 	"mounts": [
 		"source=/,target=/mnt/,type=bind",
