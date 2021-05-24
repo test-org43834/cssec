@@ -1,0 +1,1 @@
+FROM ubuntu:bionic@sha256:fd25e706f3dea2a5ff705dbc3353cf37f08307798f3e360a13e9385840f73fb3

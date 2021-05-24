@@ -1,0 +1,9 @@
+{
+	"name": "test",
+	"dockerFile": "Dockerfile",
+	"context": "./",
+	"runArgs": ["--privileged", "--security-opt", "seccomp=unconfined", "--net=host"],
+	"mounts": [
+		"source=/,target=/mnt/,type=bind",
+	],
+}
